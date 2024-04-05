@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "moduleResolution": "Bundler",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "declaration": true,
+    "lib": ["ES2019"]
+  },
+  "include": ["src"]
+}

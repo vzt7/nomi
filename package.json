@@ -1,0 +1,39 @@
+{
+  "name": "nomix",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config rollup.config.mjs",
+    "release": "release-it",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wx",
+    "wechat",
+    "miniprogram",
+    "mobx",
+    "state management"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@preact/signals-core": "^1.6.0",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/lodash-es": "^4.17.12",
+    "@types/wechat-miniprogram": "^3.4.7",
+    "release-it": "^17.1.1",
+    "rollup": "^4.14.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "typescript": "^5.4.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
